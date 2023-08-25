@@ -3,7 +3,13 @@ body{
   padding: 0px;
 }
 
-.img-bg{
- width:100%;
- height:auto;
+.transparent{
+position: absolute;
+z-index: 999;
+}
+.bg-body-tertiary{
+  background: rgba(255, 0, 0, 0) !important;
+}
+.vh-100{
+height: 100vh;
 }
