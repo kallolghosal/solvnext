@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import '../globals.css'
+import '../globals.css';
+import Topmenu from './topmenu';
 
 const homebanner = () => {
     return (
@@ -10,10 +11,8 @@ const homebanner = () => {
             <nav class="navbar bg-body-tertiary">
               <div class="container">
                 <a class="navbar-brand"><img src='/img/CMS-logo-3.png' alt='CMS Logo' width="180px" /></a>
-                <form class="d-flex" role="search">
-                
-                  <button class="btn btn-success" type="submit">Menu</button>
-                </form>
+                <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
+                <Topmenu />
               </div>
             </nav>
           </Col>  

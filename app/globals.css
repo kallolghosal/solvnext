@@ -13,3 +13,38 @@ z-index: 999;
 .vh-100{
 height: 100vh;
 }
+
+.footerstyle li {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+.footerlists li {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.footerstyle ul.footerlists {
+  padding-bottom: 14px;
+}
+
+.topMenu li {
+  list-style-type: none;
+  margin-left: -30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.topMenuLists li {
+  list-style-type: square;
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.topMenu ul.topMenuLists {
+  padding-bottom: 14px;
+}
+
+@media (max-width: 767px) {
+  
+}
