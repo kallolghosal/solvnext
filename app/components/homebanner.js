@@ -63,7 +63,7 @@ const homebanner = () => {
           <Col style={{ backgroundColor: '#00AC8D' }}>
             <Container style={{ marginTop: '30px', marginBottom: '30px' }}>
               <h2 style={{ color: 'white' }}>We believe in an uncompromising investment in equity.</h2>
-              <p style={{ color: 'white' }}>We seek and raise &aposCommitted Capital&apos to invest in &aposMeaningful Returns&apos.</p>
+              <p style={{ color: 'white' }}>We seek and raise &apos;Committed Capital&apos; to invest in &apos;Meaningful Returns&apos;.</p>
             </Container>
           </Col>
         </Row>  

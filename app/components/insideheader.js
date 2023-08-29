@@ -6,7 +6,7 @@ import '../globals.css'
 const insideheader = () => {
     return (
         <>
-        <Container fluid g-0 className="vh-100" style={{ margin:0, padding:0 }}>
+        <Container fluid g-0 style={{ margin:0, padding:0 }}>
             <Row className="d-flex flex-column">
                 <Col className="transparent"> 
                     <nav class="navbar bg-body-tertiary">
