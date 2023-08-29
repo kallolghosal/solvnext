@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import Image from 'react-bootstrap';
+import Image from 'next/image';
 import '../globals.css'
 
 const collab = () => {
