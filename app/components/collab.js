@@ -8,7 +8,7 @@ const collab = () => {
             <Container style={{ paddingTop: '40px', paddingBottom: '40px' }}>
                 <Row>
                     <Col md={4}>
-                        <Image src='/img/Group-3.png' width={370} height={'auto'} alt='Community Action Collab' />
+                        <Image src='/img/Group-3.png' width={370} height={370} alt='Community Action Collab' />
                     </Col>
                     <Col md={8}>
                         <Image src='/img/CAC-logo.svg' width={300} height={150} alt='CAC Logo' />

@@ -30,7 +30,7 @@ const impact = () => {
                         <h5 style={{ color: '#853F97' }}>LEADERS MENTORED</h5>
                     </Col>
                     <Col md={8}>
-                        <Image src='/img/hp-impact-map.png' width={760} alt='Map' />
+                        <Image src='/img/hp-impact-map.png' width={760} height={400} alt='Map' />
                     </Col>
                 </Row>
             </Container>
