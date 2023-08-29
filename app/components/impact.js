@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'react-bootstrap';
 import '../globals.css'
 
 const impact = () => {
@@ -29,7 +30,7 @@ const impact = () => {
                         <h5 style={{ color: '#853F97' }}>LEADERS MENTORED</h5>
                     </Col>
                     <Col md={8}>
-                        <img src='/img/hp-impact-map.png' width={760} alt='Map' />
+                        <Image src='/img/hp-impact-map.png' width={760} alt='Map' />
                     </Col>
                 </Row>
             </Container>

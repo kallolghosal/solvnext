@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'react-bootstrap';
 import '../globals.css'
 
 const contentslider = () => {
@@ -18,25 +19,25 @@ const contentslider = () => {
                                     <a href='https://solvists.org' alt="Solvists" className='btn btn-success'>LEARN MORE</a>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Health-1.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Health-1.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Strengthening Health and Community Systems | Health
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Health-2.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Health-2.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Making worker wellbeing a reality | Wellbeing for Workforce
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Livehood.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Livehood.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Supporting enterprises with evidence based solutions | Livelihood
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Climate-Icon.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Climate-Icon.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Climate change has a range of impacts on sectors
                                     </p>
@@ -53,25 +54,25 @@ const contentslider = () => {
                                     <a href='https://solvists.org' alt="Solvists" className='btn btn-success'>LEARN MORE</a>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/shape5.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/shape5.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Designing sustainable development interventions | Design for Success
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/shape6.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/shape6.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Transforming investment through impact evaluations | Evidence for Change
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/shape7.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/shape7.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Mobilising partners with number-based and evidence-based action | Monitor for results
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/shape8.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/shape8.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Capturing, using and sharing learnings for strategy, action and implementation | Learning for Impact
                                     </p>
@@ -88,25 +89,25 @@ const contentslider = () => {
                                     <a href='https://solvists.org' alt="Solvists" className='btn btn-success'>LEARN MORE</a>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Health-1.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Health-1.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Creating technologies that work for all | Techtonic
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Health-2.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Health-2.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Enabling social development | Community Engagement
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Livehood.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Livehood.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Building resilience through educational interventions | Education
                                     </p>
                                 </Col>
                                 <Col style={{ textAlign: 'center', color:'#00ac8d' }}>
-                                    <img src='/img/Climate-Icon.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
+                                    <Image src='/img/Climate-Icon.png' alt='Health' style={{ width: 'auto', height: '140px' }} />
                                     <p style={{ paddingLeft: '40px', paddingRight: '40px', marginTop: '20px' }}>
                                         Producing enduring behavioural change | Behaviour Science
                                     </p>

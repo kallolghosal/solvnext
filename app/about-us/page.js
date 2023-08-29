@@ -1,5 +1,6 @@
 "use client"
 import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'react-bootstrap';
 import Topmenu from '../components/topmenu';
 import '../globals.css'
 
@@ -11,7 +12,7 @@ const about = () => {
                 <Col className="transparent"> 
                     <nav class="navbar bg-body-tertiary">
                         <div class="container">
-                            <a class="navbar-brand"><img src='/img/CMS-logo-3.png' alt='CMS Logo' width="180px" /></a>
+                            <a class="navbar-brand"><Image src='/img/CMS-logo-3.png' alt='CMS Logo' width={180} /></a>
                             <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
                             <Topmenu />
                         </div>

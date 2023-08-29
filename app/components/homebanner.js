@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import '../globals.css';
+import Image from 'next/image'
 import Topmenu from './topmenu';
 
 const homebanner = () => {
@@ -10,7 +11,7 @@ const homebanner = () => {
           <Col className="transparent"> 
             <nav class="navbar bg-body-tertiary">
               <div class="container">
-                <a class="navbar-brand"><img src='/img/CMS-logo-3.png' alt='CMS Logo' width="180px" /></a>
+                <a class="navbar-brand"><Image src='/img/CMS-logo-3.png' alt='CMS Logo' width={150} height={60} className="img-fluid"/></a>
                 <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
                 <Topmenu />
               </div>
@@ -25,7 +26,7 @@ const homebanner = () => {
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="/img/HomepageBanner1.jpeg" class="d-block w-100" alt="..."/>
+                <Image src="/img/HomepageBanner1.jpeg" class="d-block w-100 h-100" alt="..." width={600} height={400} />
                   <div class="carousel-caption d-none d-md-block" style={{ textAlign:'left' }}>
                     <h2>Unlocking Value</h2>
                     <p>Catalysing Ideas, Individuals, Institutions and Investing in Equity</p>
@@ -33,7 +34,7 @@ const homebanner = () => {
                   </div>
                 </div>
                 <div class="carousel-item">
-                <img src="/img/HomepageBanner2.jpeg" class="d-block w-100" alt="..."/>
+                <Image src="/img/HomepageBanner2.jpeg" class="d-block w-100 h-100" alt="..." width={200} height={200} />
                   <div class="carousel-caption d-none d-md-block" style={{ textAlign:'left' }}>
                     <h5>Unlocking Value</h5>
                     <p>An investment reimagined approach levaraging our assets, commitment and passion</p>
@@ -41,7 +42,7 @@ const homebanner = () => {
                   </div>
                 </div>
                 <div class="carousel-item">
-                <img src="/img/HomepageBanner3.jpeg" class="d-block w-100" alt="..."/>
+                <Image src="/img/HomepageBanner3.jpeg" class="d-block w-100 h-100" alt="" width={200} height={200} />
                   <div class="carousel-caption d-none d-md-block" style={{ textAlign:'left' }}>
                     <h5>Unlocking Value</h5>
                     <p>Creating transformational impact that is driving sustainable and scalable equity</p>
@@ -62,7 +63,7 @@ const homebanner = () => {
           <Col style={{ backgroundColor: '#00AC8D' }}>
             <Container style={{ marginTop: '30px', marginBottom: '30px' }}>
               <h2 style={{ color: 'white' }}>We believe in an uncompromising investment in equity.</h2>
-              <p style={{ color: 'white' }}>We seek and raise 'Committed Capital' to invest in 'Meaningful Returns'.</p>
+              <p style={{ color: 'white' }}>We seek and raise &aposCommitted Capital&apos to invest in &aposMeaningful Returns&apos.</p>
             </Container>
           </Col>
         </Row>  
