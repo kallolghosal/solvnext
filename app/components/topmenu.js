@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import Link from 'next/link';
 import '../globals.css'
 
 const topmenu = () => {
@@ -14,10 +15,10 @@ const topmenu = () => {
                 <Row>
                 <Col md={4}>
                     <ul className='topMenu'>
-                    <li>Home</li>
+                    <li><Link href='/'>Home</Link></li>
                     <li>About Us
                         <ul className='topMenuLists'>
-                        <li>About CMS</li>
+                        <li><Link href='/about-us'>About CMS</Link></li>
                         <li>Our Team</li>
                         <li>Our Incubatees</li>
                         </ul>

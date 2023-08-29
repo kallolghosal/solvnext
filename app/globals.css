@@ -38,11 +38,25 @@ height: 100vh;
   list-style-type: square;
   margin-left: 20px;
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 400;
+}
+
+.topMenuLists a, .topMenu a {
+  text-decoration: none;
+  color: white;
 }
 
 .topMenu ul.topMenuLists {
   padding-bottom: 14px;
+}
+
+.aboutbanner {
+  background-image: url('/img/about-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  width: 100%;
+  color: white;
 }
 
 @media (max-width: 767px) {
