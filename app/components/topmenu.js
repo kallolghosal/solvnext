@@ -19,7 +19,7 @@ const topmenu = () => {
                     <li>About Us
                         <ul className='topMenuLists'>
                         <li><Link href='/about-us'>About CMS</Link></li>
-                        <li>Our Team</li>
+                        <li><Link href={'/our-team'}>Our Team</Link></li>
                         <li>Our Incubatees</li>
                         </ul>
                     </li>

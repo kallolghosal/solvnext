@@ -58,7 +58,7 @@ const about = () => {
                     <h5>Working with CMS</h5>
                     <p>Our on-ground experience and understanding help us partner with multi-disciplinary teams to tackle complex challenges and maximise social returns.</p>
                     <h5>We are committed to forging transformative partnerships towards investing in equity.</h5>
-                    <p>Established in 1994, CMS, based in India, works in 25 other countries, exporting India’s social development capacities and bringing back learning and goodwill. We are part of the Catalyst Group.</p>
+                    <p>Established in 1994, CMS, based in India, works in 25 other countries, exporting India&apos;s social development capacities and bringing back learning and goodwill. We are part of the Catalyst Group.</p>
                 </Col>
             </Row>
         </Container>

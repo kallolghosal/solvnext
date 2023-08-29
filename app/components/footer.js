@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import Link from 'next/link';
 import '../globals.css'
 
 const footer = () => {
@@ -16,11 +17,11 @@ const footer = () => {
                 <Row className='footerstyle'>
                     <Col md={3}>
                         <ul>
-                            <li>Home</li>
+                            <li><Link href={'/'}>Home</Link></li>
                             <li>About Us
                                 <ul className='footerlists'>
-                                    <li>About CMS</li>
-                                    <li>Our Team</li>
+                                    <li><Link href={'/about-us'}>About CMS</Link></li>
+                                    <li><Link href={'/our-team'}>Our Team</Link></li>
                                     <li>Our Incubatees</li>
                                 </ul>
                             </li>

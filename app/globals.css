@@ -26,6 +26,10 @@ height: 100vh;
 .footerstyle ul.footerlists {
   padding-bottom: 14px;
 }
+.footerlists a, .footerstyle a {
+  text-decoration: none;
+  color: white;
+}
 
 .topMenu li {
   list-style-type: none;
