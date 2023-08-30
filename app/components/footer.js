@@ -22,7 +22,7 @@ const footer = () => {
                                 <ul className='footerlists'>
                                     <li><Link href={'/about-us'}>About CMS</Link></li>
                                     <li><Link href={'/our-team'}>Our Team</Link></li>
-                                    <li>Our Incubatees</li>
+                                    <li><Link href={'our-incubatees'}>Our Incubatees</Link></li>
                                 </ul>
                             </li>
                             <li>Our Partners</li>

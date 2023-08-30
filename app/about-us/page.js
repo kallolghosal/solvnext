@@ -4,6 +4,7 @@ import '../globals.css';
 import Insideheader from '../components/insideheader';
 import Footer from '../components/footer';
 import Copyright from '../components/copyright';
+import Link from 'next/link';
 
 const about = () => {
     return (
@@ -12,10 +13,10 @@ const about = () => {
         <Container fluid style={{ marginTop: '80px', marginBottom: '100px', paddingLeft: '80px', paddingRight: '80px' }}>
             <Row>
                 <Col md={3}>
-                    <ul>
-                        <li>ABOUT CMS</li>
-                        <li>Our Team</li>
-                        <li>Our Incubatees</li>
+                    <ul className='aboutlink'>
+                        <li><Link href={'/about-us'} style={{ fontWeight: 'bold', color: '#7F3F98' }}>ABOUT CMS</Link></li>
+                        <li><Link href={'/our-team'}>Our Team</Link></li>
+                        <li><Link href={'/our-incubatees'}>Our Incubatees</Link></li>
                     </ul>
                 </Col>
                 <Col md={9}>
