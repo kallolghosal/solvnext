@@ -23,7 +23,7 @@ const topmenu = () => {
                         <li>Our Incubatees</li>
                         </ul>
                     </li>
-                    <li>Our Partners</li>
+                    <li><Link href={'/our-partners'}>Our Partners</Link></li>
                     <li>Domain Areas
                         <ul className='topMenuLists'>
                         <li>Livelihood</li>

@@ -25,7 +25,7 @@ const footer = () => {
                                     <li><Link href={'our-incubatees'}>Our Incubatees</Link></li>
                                 </ul>
                             </li>
-                            <li>Our Partners</li>
+                            <li><Link href={'/our-partners'}>Our Partners</Link></li>
                             <li>Domain Areas
                                 <ul className='footerlists'>
                                     <li>Livelihood</li>

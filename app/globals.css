@@ -63,6 +63,15 @@ height: 100vh;
   color: white;
 }
 
+.partnerbanner {
+  background-image: url('/img/partners-head.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 360px;
+  width: 100%;
+  color: white;
+}
+
 .teamImgBox {
   overflow: hidden;
   align-content: center;
