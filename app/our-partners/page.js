@@ -35,13 +35,13 @@ const partners = () => {
             <br />
             <Row>
                 <Col md={2}>
-                    <Image src={'/img/usaid-logo.png'} width={180} height={60} alt='USAID Logo' />
+                    <Image src={'/img/usaid-logo.png'} width={180} height={60} alt='USAID Logo' style={{ marginTop: '30px' }} />
                 </Col>
                 <Col md={2}>
-                    <Image src={'/img/greenwich-logo.png'} width={160} height={40} alt='Greenwich Logo' />
+                    <Image src={'/img/greenwich-logo.png'} width={160} height={40} alt='Greenwich Logo' style={{ marginTop: '30px' }} />
                 </Col>
                 <Col md={2}>
-                    <Image src={'/img/chicago-logo.png'} width={160} height={60} alt='Chicago Logo' />
+                    <Image src={'/img/chicago-logo.png'} width={160} height={60} alt='Chicago Logo' style={{ marginTop: '22px' }} />
                 </Col>
                 <Col md={2}>
                     <Image src={'/img/unicef-logo.png'} width={160} height={90} alt='UNICEF Logo' />
@@ -59,7 +59,7 @@ const partners = () => {
                     <Image src={'/img/tufts-logo.png'} width={170} height={100} alt='Tufts Logo' />
                 </Col>
                 <Col md={2}>
-                    <Image src={'/img/traidcraft-logo.png'} width={190} height={30} alt='Traidcraft Logo' />
+                    <Image src={'/img/traidcraft-logo.png'} width={190} height={30} alt='Traidcraft Logo' style={{ marginTop: '30px' }} />
                 </Col>
                 <Col md={2}>
                     <Image src={'/img/swasti-logo.png'} width={170} height={90} alt='Swasti Logo' />

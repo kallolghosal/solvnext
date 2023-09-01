@@ -26,10 +26,10 @@ const topmenu = () => {
                     <li><Link href={'/our-partners'}>Our Partners</Link></li>
                     <li>Domain Areas
                         <ul className='topMenuLists'>
-                        <li>Livelihood</li>
-                        <li>Health</li>
-                        <li>Wellbeing for Workforce</li>
-                        <li>Climate</li>
+                            <li><Link href={'/domain-areas/livelihood'}>Livelihood</Link></li>
+                            <li><Link href={'/domain-areas/health'}>Health</Link></li>
+                            <li><Link href={'/domain-areas/wellbeing-for-workforce'}>Wellbeing for Workforce</Link></li>
+                            <li><Link href={'/domain-areas/climate-practice'}>Climate</Link></li>
                         </ul>
                     </li>
                     </ul>
