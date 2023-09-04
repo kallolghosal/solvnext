@@ -2,6 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import '../globals.css';
 import Image from 'next/image'
 import Topmenu from './topmenu';
+import Link from 'next/link';
 
 const homebanner = () => {
     return (
@@ -11,7 +12,7 @@ const homebanner = () => {
           <Col className="transparent"> 
             <nav class="navbar bg-body-tertiary">
               <div class="container">
-                <a class="navbar-brand"><Image src='/img/CMS-logo-3.png' alt='CMS Logo' width={150} height={60} className="img-fluid"/></a>
+                <Link href={'/'} class="navbar-brand"><Image src='/img/CMS-logo-3.png' alt='CMS Logo' width={150} height={60} className="img-fluid"/></Link>
                 <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
                 <Topmenu />
               </div>

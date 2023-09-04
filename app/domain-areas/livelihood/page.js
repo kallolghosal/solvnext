@@ -11,7 +11,7 @@ const livelihood = () => {
     return (
         <>
         <Domainareaheader />
-        <Container fluid style={{ marginTop: '80px', marginBottom: '100px', paddingLeft: '80px', paddingRight: '80px' }}>
+        <Container style={{ marginTop: '80px', marginBottom: '100px' }}>
             <Row>
                 <Col md={3}>
                     <Row>
@@ -152,7 +152,13 @@ const livelihood = () => {
                         <div className='whitebox'>
                             <ul>
                                 <li>National Rural Livelihood Mission (NRLM): Vrutti and CMS are undertaking an impact evaluation of the NRLM (along with 3ie and Stanford University) to determine the impact of the programme using rigorous econometric methods. The study covers about 27,500 households across 9 states in India, about 1,000 village organisations and over 4,000 Self-Help Groups. This is a one-of-a-kind ongoing national programme to be evaluated, and the methodology is being celebrated with high policy relevance and evidence uptake by the government. The Ministry of Rural Development is utilising the findings to course-correct the elements of the NRLP and as design inputs for the NRETP (National Rural Economic Transformation Project).</li>
-                                <li>Cotton Connect: The Organic Cotton Farmer Training Programme is supporting 16,000 farmers across India to convert to an organic system of production that can be cost-saving and less damaging to the environment. CMS is undertaking an impact evaluation of the programme over 6 years, covering 8,000 farmers across 4 states, to determine whether;<br />This unique evaluation attempts to determine the profit margins and returns from organic farming. It also provides sectoral inputs on topics including whether going organic for a farmer makes financial sense, if so, how to support it, and if not, how to make it profitable, despite the fact that doing so is both climate-friendly and need-of-the-hour.</li>
+                                <li>Cotton Connect: The Organic Cotton Farmer Training Programme is supporting 16,000 farmers across India to convert to an organic system of production that can be cost-saving and less damaging to the environment. CMS is undertaking an impact evaluation of the programme over 6 years, covering 8,000 farmers across 4 states, to determine whether;
+                                    <br />
+                                    <Row>
+                                        <Col style={{border: '1px solid green', borderRadius: '5px', padding: '15px', marginRight: '10px'}}>Ensuring small producers receive reasonable prices for the risk and effort they take in the value chain</Col>
+                                        <Col style={{border: '1px solid green', borderRadius: '5px', padding: '15px'}}>whether farmers can successfully adopt organic cotton production through an extension services programme</Col>
+                                    </Row>
+                                    <br />This unique evaluation attempts to determine the profit margins and returns from organic farming. It also provides sectoral inputs on topics including whether going organic for a farmer makes financial sense, if so, how to support it, and if not, how to make it profitable, despite the fact that doing so is both climate-friendly and need-of-the-hour.</li>
                                 <li>Agri and Climate Smart Agriculture (CSA) Finance Market Assessment in India: The objective of this study is to increase access to agri-finance by building digital agricultural lending platforms with financial institutions (FIs) and agribusinesses and to increase adoption of CSA technologies in the relevant agri-sub-sectors and value chains, contributing to the larger vision of WBG‘s Climate Action Plan 2021–2025. This study is expected to also feed into the climate finance strategy of IFC, which aims to mainstream climate in the agriculture sector and in small and medium enterprises (SMEs). An interesting exploration of agri-finance, this study attempts to bridge the gap in financing for farmers and the other players in the value chain through private sector lending while keeping profitability, technology, gender, climate responsiveness and inclusion in mind. This landscape study will also develop products for the value chain sector, looking at it from both the demand (farmers/value chain-implementing partners) and supply (financial institutions) sides.</li>
                                 <li>Economic Resilience model: COVID-19 has significantly affected the livelihoods of vulnerable communities. We are developing a scalable model for building economic resilience among vulnerable populations. Currently, piloting with 6,000 vulnerable households at three locations across the country with the Head Held High Foundation, Gopabandhu Seva Parishad (GSP), and Transform Rural India Foundation (TRIF) as partner organisations. The pathways designed to enhance resilience are conservation (cost cutting, risk reduction, etc.), diversification (of income and revenue streams), aggregation (helping the poor save and invest), and risk pooling (formal and informal insurance mechanisms).</li>
                             </ul>
@@ -163,6 +169,12 @@ const livelihood = () => {
 The goal of Business Catalyst is to partner with MSMEs &ndash; to support them to grow and increase their business &ndash by addressing challenges faced by them and offering tailor made solutions. Through a process of one-on-one consultation, Business Catalyst seeks to ensure that an MSME achieves its potential by providing them specific solutions based on its business requirements. The range of solutions offered would be as diverse as assistance in capacity building to providing technical services. The services offered would help an MSME improve profitability and address barriers of growth. Know more.
                         </div>
                         <p>We work towards the holistic development of small producers and to pave the way to a brighter future. All of our work is geared towards achieving the UN SDGs, specifically Goals 1, 2, 5, 10, 11 and 17.</p>
+                        <div className='imgbox'>
+                            <Image src={'/../img/grp1.png'} width={400} height={120} alt='Group Icon' style={{marginRight:'15px'}} />
+                            <Image src={'/../img/grp2.png'} width={400} height={120} alt='Group Icon' />
+                        </div>
+                        <div><p><b><br />To learn more about the work we do, contact us at</b></p></div>
+                        <Link href={'mailto:contactus@catalists.org'} className='btn btn-success'>contacyus@ctalysts.org</Link>
                     </div>
                 </Col>
             </Row>

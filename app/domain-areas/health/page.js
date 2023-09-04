@@ -11,18 +11,18 @@ const health = () => {
     return (
         <>
         <Domainareaheader />
-        <Container fluid style={{ marginTop: '80px', marginBottom: '100px', paddingLeft: '80px', paddingRight: '80px' }}>
+        <Container style={{ marginTop: '80px', marginBottom: '100px' }}>
             <Row>
-                <Col md={3}>
+                <Col md={3} xs={12}>
                     <Row>
-                        <Col md={6}  className='d-flex align-items-center justify-content-center'>
+                        <Col md={6} xs={6}  className='d-flex align-items-center justify-content-center'>
                             <Link href='/domain-areas/health'>
                                 <div className='iconbox' style={{backgroundColor: '#027963'}}>
                                     <Image src={'/img/Health-menu-icon.png'} width={80} height={80} alt='Health Icon' />
                                 </div>
                             </Link>
                         </Col>
-                        <Col md={6} className='d-flex align-items-center justify-content-center'>
+                        <Col md={6} xs={6} className='d-flex align-items-center justify-content-center'>
                             <Link href='/domain-areas/wellbeing-for-workforce'>
                                 <div className='iconbox'>
                                     <Image src={'/img/Wellbeing-icon.png'} width={80} height={80} alt='Wellbeing Icon' />
@@ -31,18 +31,18 @@ const health = () => {
                         </Col>
                     </Row>
                     <Row style={{textAlign:'center'}}>
-                        <Col md={6}><p>Health</p></Col>
-                        <Col md={6}><p>Welbeing for workforce</p></Col>
+                        <Col md={6} xs={6}><p>Health</p></Col>
+                        <Col md={6} xs={6}><p>Welbeing for workforce</p></Col>
                     </Row>
                     <Row>
-                        <Col md={6} className='d-flex align-items-center justify-content-center'>
+                        <Col md={6} xs={6} className='d-flex align-items-center justify-content-center'>
                             <Link href='/domain-areas/livelihood'>
                                 <div className='iconbox'>
                                     <Image src={'/img/Livehood.png'} width={80} height={80} alt='Livelihood Icon' />
                                 </div>
                             </Link>
                         </Col>
-                        <Col md={6} className='d-flex align-items-center justify-content-center'>
+                        <Col md={6} xs={6} className='d-flex align-items-center justify-content-center'>
                             <Link href='/domain-areas/climate-practice'>
                                 <div className='iconbox'>
                                     <Image src={'/img/Climate-Action-Icon.png'} width={80} height={80} alt='Climate Icon' />
@@ -51,11 +51,11 @@ const health = () => {
                         </Col>
                     </Row>
                     <Row style={{textAlign:'center'}}>
-                        <Col md={6}><p>Livelihood</p></Col>
-                        <Col md={6}><p>Climate</p></Col>
+                        <Col md={6} xs={6}><p>Livelihood</p></Col>
+                        <Col md={6} xs={6}><p>Climate</p></Col>
                     </Row>
                 </Col>
-                <Col md={9}>
+                <Col md={9} xs={12}>
                     <div className='healthbox'>
                         <h2 className='bg-transparent'>Health</h2>
                     </div>
@@ -100,12 +100,12 @@ const health = () => {
                         <ul>
                             <li>Transforming the city of Bhopal into a &apos;Healthy City&apos; based on WHO&apos;s long-running Healthy Cities framework concentrating on the Social Determinants of Health in five pillars:</li>
                         </ul>
-                        <video src='/img/health_video.mp4' autoPlay loop style={{ width: '700px', height: '700px' }}></video>
+                        <video src='/img/health_video.mp4' autoPlay loop className='w-100' style={{height:'auto'}}></video>
                         <p>The initiative has been successful with support from National Health Mission, Government of Madhya Pradesh and HSTP</p>
                         <ul>
                             <li>Developed effective strategies for COVID-19 vaccination and building resilience with support from Rockefeller Foundation in 3 SEAR countries</li>
                         </ul>
-                        <Image src={'/../img/map.png'} width={800} height={400} alt='Map' />
+                        <Image src={'/../img/map.png'} width={200} height={100} alt='Map' className='w-100' style={{height:'auto'}} />
                         <ul>
                             <li>National QI Coordinating Agency &amp; Technology Agency for Manyata 4.0 aims to scale up Manyata to at least 1000 new social healthcare enterprises (SHEs) in key states of India by 2024 with support from MSD for Mothers, a global healthcare initiative for women</li>
                             <li>Built the resilience among workers and businesses of factories against Covid-19 and future crises of over 40,000 workers from 14 RMG factories of Amazon Supply Chains located districts of Bangladesh with support from Amazon</li>
@@ -113,11 +113,34 @@ const health = () => {
                             <li>Facilitated the Learning for Impact L4I knowledge collaborative by USAID India</li>
                             <li>Conducted a process evaluation of India&apos;s first health-focused &apos;development impact bond&apos; (DIB) to generate insights on the prospective role of performance-based financing mechanisms in global health programming</li>
                             <li>Designed the National Drug Control Master Plan (NDCMP) II for the Government of Nigeria to combat the challenges of addiction and trafficking</li>
-                            <li>Conducted an evaluation of the World Health Organisation’s Regional Office for South East Asia’s (WHO SEARO) Collaborating Centers</li>
+                            <li>Conducted an evaluation of the World Health Organisation&apos;s Regional Office for South East Asia&apos;s (WHO SEARO) Collaborating Centers</li>
                             <li>Together with Swasti, raised over one billion USD from the Global Fund for AIDS, TB and Malaria</li>
                         </ul>
                         <h5>Alliances and Platforms</h5>
                         <p>Creating impact, orchestrating results, and shaping the sector of primary health care, environmental health, and climate change through our platforms and multi-partner alliances.</p>
+                        <div className='imgbox'>
+                            <Image src={'/../img/Logo-1.png'} width={160} height={50} alt='Logo 1' />
+                            <Image src={'/../img/Logo-2.png'} width={160} height={90} alt='Logo 1' />
+                            <Image src={'/../img/Logo-3.png'} width={160} height={60} alt='Logo 1' />
+                            <Image src={'/../img/Logo-4.png'} width={130} height={50} alt='Logo 1' />
+                            <Image src={'/../img/Logo-5.png'} width={150} height={60} alt='Logo 1' />
+                        </div>
+                        <p>The practice area has representation under some of the most prestigious boards and panels:</p>
+                        <ul>
+                            <li>WHO Alliance for Transformative Action on Climate and Health (ATACH)</li>
+                            <li>WHO Knowledge Sharing Platform</li>
+                            <li>Scientific and Industrial Research Organizations (SIRO)</li>
+                            <li>Global Learning Collaborative for Health Systems Resilience</li>
+                            <li>MIT Solve Health Leadership</li>
+                            <li>Asia Pacific Alliance for SRHR</li>
+                        </ul>
+                        <p><b>Pivoting Towards Climate-Responsive Healthy Days</b></p>
+                        <h5>#100MillionHealthyDays:</h5>
+                        <p>Building stronger evidence on measuring healthy days</p>
+                        <h5>Climate Change and Health:</h5>
+                        <p>Climate change has resulted in extreme weather conditions that have a serious impact on health. Through climate-responsive programs, we hope to build the resilience of vulnerable communities.</p>
+                        <p><b>To learn more about the work we do, contact us at:</b></p>
+                        <Link href={'mailto:solvists@catalists.org'} className='btn btn-success'>solvists@ctalysts.org</Link>
                     </div>
                 </Col>
             </Row>

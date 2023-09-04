@@ -125,8 +125,34 @@ a:hover .iconbox {
   height: 500px;
   width: auto;
 }
+.wellbeingbox {
+  background-image: url('/img/Wellbeing-for-Workforce.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+  width: auto;
+}
+.climatebox {
+  background-image: url('/img/Climate-Banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 500px;
+  width: auto;
+  margin-top: -36px;
+}
 
-.livelihoodbox h2 {
+.purplebox {
+  display: block;
+  padding: 6px 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #7F3F97;
+}
+
+.livelihoodbox h2, .wellbeingbox h2, .climatebox h2 {
   color: white;
   position: relative;
   top: 420px;
@@ -136,6 +162,14 @@ a:hover .iconbox {
 .livhoodtext {
   background-color: #E6F7F4;
   padding: 40px 40px;
+}
+.greanheaderbox {
+  background-color: #00AE8E;
+  color: white;
+  padding: 6px 15px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
 }
 .greenbox {
   background-color: #00AE8E;
@@ -152,12 +186,24 @@ a:hover .iconbox {
 .greenbox img {
   margin-top: 10px;
 }
-
+.greenboxlarge {
+  background-color: #00AE8E;
+  color: white;
+  padding: 20px 14px;
+  margin-bottom: 10px;
+}
 .transparentbox {
   padding: 10px 10px;
   display: flex;
   flex-direction: row;
   border-radius: 5px;
+}
+.whitetextbox {
+  padding: 10px 10px;
+  display: block;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
 }
 
 .whitebox {
@@ -167,6 +213,9 @@ a:hover .iconbox {
   border-radius: 5px;
   background-color: white;
   margin-bottom: 10px;
+}
+.whitebox li {
+  margin: 10px 10px;
 }
 .healthbox {
   background-image: url('/img/health-img.jpeg');
@@ -183,6 +232,14 @@ a:hover .iconbox {
   top: 400px;
   background-color: #d2d2d2;
   padding: 10px 10px;
+}
+
+.imgrow {
+  display: flex;
+  flex-direction: column;
+}
+.imgrow img {
+  margin-right: 25px;
 }
 
 @media (max-width: 767px) {
