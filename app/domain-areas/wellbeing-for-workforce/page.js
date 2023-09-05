@@ -24,7 +24,7 @@ const wellbeing = () => {
                         </Col>
                         <Col md={6} className='d-flex align-items-center justify-content-center'>
                             <Link href='/domain-areas/wellbeing-for-workforce'>
-                                <div className='iconbox'>
+                                <div className='iconbox' style={{backgroundColor: '#027963'}}>
                                     <Image src={'/img/Wellbeing-icon.png'} width={80} height={80} alt='Wellbeing Icon' />
                                 </div>
                             </Link>

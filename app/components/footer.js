@@ -40,10 +40,10 @@ const footer = () => {
                         <ul>
                             <li>Transforming Investment
                                 <ul className='footerlists'>
-                                    <li>Design for Success</li>
-                                    <li>Evidence for Change</li>
-                                    <li>Monitor for Results</li>
-                                    <li>Learning for Impact</li>
+                                    <li><Link href={'/transforming-investment/design-for-success'}>Design for Success</Link></li>
+                                    <li><Link href={'/transforming-investment/evidence-for-change'}>Evidence for Change</Link></li>
+                                    <li><Link href={'/transforming-investment/monitorforrsult'}>Monitor for Results</Link></li>
+                                    <li><Link href={'/transforming-investment/learning-for-impact'}>Learning for Impact</Link></li>
                                 </ul>
                             </li>
                             <li>Leveraging Assets</li>
