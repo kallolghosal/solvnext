@@ -57,12 +57,11 @@ const topmenu = () => {
                     <ul className='topMenu'>
                         <li>Enabling Spcialists
                             <ul className='topMenuLists'>
-                                <li>Techtonic</li>
-                                <li>Community Engagement</li>
-                                <li>Education</li>
-                                <li>Behaviour Sciente</li>
-                                <li>Gender &amp; Equity</li>
-                                <li>Social Protection</li>
+                                <li><Link href={'/enabling-specialists/techtonic'}>Techtonic</Link></li>
+                                <li><Link href={'/enabling-specialists/education'}>Education</Link></li>
+                                <li><Link href={'/enabling-specialists/behaviour-science'}>Behaviour Science</Link></li>
+                                <li><Link href={'/enabling-specialists/gender-equity'}>Gender &amp; Equity</Link></li>
+                                <li><Link href={'enabling-specialists/social-protection'}>Social Protection</Link></li>
                             </ul>
                         </li>
                         <li>CMS Blog</li>

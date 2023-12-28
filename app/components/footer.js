@@ -63,7 +63,7 @@ const footer = () => {
                                     <li><Link href={'/enabling-specialists/education'}>Education</Link></li>
                                     <li><Link href={'/enabling-specialists/behaviour-science'}>Behaviour Science</Link></li>
                                     <li><Link href={'/enabling-specialists/gender-equity'}>Gender &amp; Equity</Link></li>
-                                    <li>Social Protection</li>
+                                    <li><Link href={'enabling-specialists/social-protection'}>Social Protection</Link></li>
                                 </ul>
                             </li>
                             <li>CMS Blog</li>
