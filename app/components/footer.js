@@ -59,11 +59,10 @@ const footer = () => {
                         <ul>
                             <li>Enabling Spcialists
                                 <ul className='footerlists'>
-                                    <li>Techtonic</li>
-                                    <li>Community Engagement</li>
-                                    <li>Education</li>
-                                    <li>Behaviour Sciente</li>
-                                    <li>Gender &amp; Equity</li>
+                                    <li><Link href={'/enabling-specialists/techtonic'}>Techtonic</Link></li>
+                                    <li><Link href={'/enabling-specialists/education'}>Education</Link></li>
+                                    <li><Link href={'/enabling-specialists/behaviour-science'}>Behaviour Science</Link></li>
+                                    <li><Link href={'/enabling-specialists/gender-equity'}>Gender &amp; Equity</Link></li>
                                     <li>Social Protection</li>
                                 </ul>
                             </li>
