@@ -42,15 +42,15 @@ const footer = () => {
                                 <ul className='footerlists'>
                                     <li><Link href={'/transforming-investment/design-for-success'}>Design for Success</Link></li>
                                     <li><Link href={'/transforming-investment/evidence-for-change'}>Evidence for Change</Link></li>
-                                    <li><Link href={'/transforming-investment/monitorforrsult'}>Monitor for Results</Link></li>
+                                    <li><Link href={'/transforming-investment/monitorforresult'}>Monitor for Results</Link></li>
                                     <li><Link href={'/transforming-investment/learning-for-impact'}>Learning for Impact</Link></li>
                                 </ul>
                             </li>
                             <li>Leveraging Assets</li>
                             <li>Our Initiatives
                                 <ul className='footerlists'>
-                                    <li>Community Action Collab</li>
-                                    <li>Catalysing Social Impact</li>
+                                    <li><Link href={'/community-action-collab'}>Community Action Collab</Link></li>
+                                    <li><Link href={'/catalysing-social-impact'}>Catalysing Social Impact</Link></li>
                                 </ul>
                             </li>
                         </ul>

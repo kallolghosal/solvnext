@@ -56,7 +56,24 @@ const learningimpact = () => {
                     </Row>
                 </Col>
                 <Col md={9}>
-                    <h2>Learning for Impact</h2>
+                    <div className='evidencebox22'>
+                        <h2>Learning for Impact</h2>
+                    </div>
+                    <div className='livhoodtext'>
+                        <p>CMS recognises that a systematic effort to capture, use and share learnings is the cornerstone of effective strategy, action and implementation. Towards this, we bring the following strengths:</p>
+                        <ul>
+                            <li>We are a learning organisation with 20+ years of experience. Our sister organisations, our strong, diverse and vast partnerships and our breadth of work provide us a 360-degree view of development</li>
+                            <li>We work with the best partners and programmes in the field and are always open to learning from them</li>
+                            <li>We carry our own experiments into our field labs on a range of issues</li>
+                            <li>We have developed a number of tools and solutions over time, across a variety of subject areas, and catalogued them for our partners to use</li>
+                        </ul>
+                        <p>We facilitate organisations and programmes to learn through:</p>
+                        <ul>
+                            <li>Designing and operationalising systems for learning and knowledge management</li>
+                            <li>Support and facilitate reflection, documentation and dissemination, using learning lenses through different forums</li>
+                            <li>Synthesis of research and experiences</li>
+                        </ul>
+                    </div>
                 </Col>
             </Row>
         </Container>

@@ -47,8 +47,8 @@ const topmenu = () => {
                         <li>Leveraging Assets</li>
                         <li>Our Initiatives
                             <ul className='topMenuLists'>
-                                <li>Community Action Collab</li>
-                                <li>Catalysing Social Impact</li>
+                                <li><Link href={'/community-action-collab'}>Community Action Collab</Link></li>
+                                <li><Link href={'/catalysing-social-impact'}>Catalysing Social Impact</Link></li>
                             </ul>
                         </li>
                     </ul>
