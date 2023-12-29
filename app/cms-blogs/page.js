@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import Copyright from "../components/copyright";
 
-const cmsblogs = () => {
+const Cmsblogs = () => {
 
     const [data, setData] = useState(null)
     const [isLoading, setLoading] = useState(true)
@@ -33,7 +33,6 @@ const cmsblogs = () => {
         <Footer />
         <Copyright />
         </>
-        
     );
 };
-export default cmsblogs;
+export default Cmsblogs;
