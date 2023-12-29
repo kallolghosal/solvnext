@@ -64,7 +64,7 @@ const topmenu = () => {
                                 <li><Link href={'enabling-specialists/social-protection'}>Social Protection</Link></li>
                             </ul>
                         </li>
-                        <li>CMS Blog</li>
+                        <li><Link href={'/cms-blogs'}>CMS Blog</Link></li>
                         <li>In the Media</li>
                         <li>Contact Us</li>
                         <li>Career</li>
