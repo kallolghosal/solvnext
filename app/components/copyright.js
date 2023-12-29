@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap';
 import { useState } from 'react';
 import '../globals.css'
 
-const copyright = () => {
+const Copyright = () => {
     const [date, setDate] = useState(new Date());
     return (
         <Container fluid style={{ 
@@ -17,4 +17,4 @@ const copyright = () => {
         </Container>
     );
 };
-export default copyright;
+export default Copyright;
