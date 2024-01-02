@@ -1,34 +1,69 @@
 "use client"
-import { Container } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
 import Footer from "../components/footer";
 import Copyright from "../components/copyright";
+import BlogHeader from "../components/blogheader";
+import Link from "next/link";
+import Image from "next/image";
 
 const Cmsblogs = () => {
 
-    const [data, setData] = useState(null)
-    const [isLoading, setLoading] = useState(true)
- 
-    useEffect(() => {
-        fetch('https://cms.org.in/wp-json/wp/v2/posts/7640')
-        .then((res) => res.json())
-        .then((data) => {
-            setData(data)
-            setLoading(false)
-        })
-    }, [])
- 
-    if (isLoading) return <p>Loading...</p>
-    if (!data) return <p>No profile data</p>
+    const [data, setData] = useState([]);
+    const [newCat, setNewCat] = useState();
+    const [loading, setLoading] = useState(true);
+    const now = new Date();
 
-    const title = data.title.rendered;
-    const cdata = data.content.rendered;
+    const postFetch = async () => {
+        if (newCat === undefined) {
+            const url =  `https://cms.org.in/wp-json/wp/v2/posts?_embed`
+            const response = await fetch(url);
+            const data = await response.json();
+            setData(data);
+        } else {
+            const url =  `https://cms.org.in/wp-json/wp/v2/posts?_embed&categories=${newCat}`
+            const response = await fetch(url);
+            const data = await response.json();
+            setData(data);
+        }
+    };
+
+    const fetchData = async () => {
+        const postsUrl = `https://cms.org.in/wp-json/wp/v2/categories?per_page=30`;
+        try {
+            const response = await fetch(postsUrl);
+            const data = await response.json();
+            setCategory(data);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+    };
+
+    useEffect(() => {
+        postFetch();
+        fetchData();
+        setLoading(false);
+    }, []);
+    const imgbg = '/img/CMS-Blog.jpg';
 
     return (
         <>
-        <Container>
-            <h1 dangerouslySetInnerHTML={{ __html: title}}></h1>
-            <p dangerouslySetInnerHTML={{ __html: cdata}}></p>
+        <BlogHeader url={imgbg} />
+        <Container style={{marginTop:'80px'}}>
+            <Row>
+                {data.map((item) => (
+                    <Col key={item.id} md={4}>
+                        <Link href={`/${item.slug}`}>
+                            <div className="card blog_card" >
+                                <Image src={item['_embedded']['wp:featuredmedia']['0']['source_url']} width={120} height={120} style={{width:'auto',height:'200px'}} className="card-img-top" alt=""/>
+                                <div className="card-body">
+                                    <h5 className="card-title">{item.title.rendered}</h5>
+                                </div>
+                            </div>
+                        </Link>
+                    </Col>
+                ))}
+            </Row>
         </Container>
         <Footer />
         <Copyright />
