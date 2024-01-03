@@ -6,6 +6,7 @@ import Copyright from "../components/copyright";
 import BlogHeader from "../components/blogheader";
 import Link from "next/link";
 import Image from "next/image";
+import configData from '../../config.json';
 
 const Cmsblogs = () => {
 
@@ -16,12 +17,12 @@ const Cmsblogs = () => {
 
     const postFetch = async () => {
         if (newCat === undefined) {
-            const url =  `https://cms.org.in/wp-json/wp/v2/posts?_embed`
+            const url = `${configData.SERVER_URL}posts?_embed`
             const response = await fetch(url);
             const data = await response.json();
             setData(data);
         } else {
-            const url =  `https://cms.org.in/wp-json/wp/v2/posts?_embed&categories=${newCat}`
+            const url = `${configData.SERVER_URL}posts?_embed&categories=${newCat}`
             const response = await fetch(url);
             const data = await response.json();
             setData(data);
@@ -29,7 +30,7 @@ const Cmsblogs = () => {
     };
 
     const fetchData = async () => {
-        const postsUrl = `https://cms.org.in/wp-json/wp/v2/categories?per_page=30`;
+        const postsUrl = `${configData.SERVER_URL}categories?per_page=30`;
         try {
             const response = await fetch(postsUrl);
             const data = await response.json();
@@ -48,7 +49,7 @@ const Cmsblogs = () => {
 
     return (
         <>
-        <BlogHeader url={imgbg} />
+        <BlogHeader url={imgbg} headline={'CMS Blog'} />
         <Container style={{marginTop:'80px'}}>
             <Row>
                 {data.map((item) => (

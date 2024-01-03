@@ -69,7 +69,7 @@ const footer = () => {
                             <li><Link href={'/cms-blogs'}>CMS Blog</Link></li>
                             <li>In the Media</li>
                             <li>Contact Us</li>
-                            <li>Career</li>
+                            <li><Link href={'/career'}>Career</Link></li>
                             <li>Privacy Policy</li>
                         </ul>
                     </Col>

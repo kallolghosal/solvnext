@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Topmenu from "./topmenu";
 
-const BlogHeader = ({url}) => {
+const BlogHeader = ({url, headline}) => {
     return (
         <Container fluid className="blogheaderbg" style={{backgroundImage:'url('+url+')'}}>
             <Row className="d-flex flex-column">
@@ -19,7 +19,7 @@ const BlogHeader = ({url}) => {
                 </Col>  
                 <Col>
                     <Container style={{ paddingTop: '200px', paddingBottom:'90px' }}>
-                        <h2 style={{color:'#fff'}}>CMS Blog</h2>
+                        <h2 style={{color:'#fff'}}>{headline}</h2>
                     </Container>
                 </Col>
                 <Col style={{ backgroundColor: '#00AC8D' }}>

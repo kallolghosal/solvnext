@@ -403,6 +403,41 @@ a:hover .iconbox {
   width: 100%;
   border-top: 8px solid #7F3F97;
 }
+.greenhead {
+  color: #25acbd;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.careerborderbox {
+  border: 1px solid #d2d2d2;
+  padding: 12px;
+  box-shadow: 1px 1px #d2d2d2;
+  height: 360px;
+}
+.careerborderbox ul li {
+  list-style-image: url('../public/img/list-icon-green.png');
+}
+.careerborderbox li {
+  padding-left: 14px;
+  padding-bottom: 12px;
+}
+.careerborderbox .careerbtn {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: linear-gradient(140deg, #25acbd 74%, #FBD036 75%);
+  padding: 10px 73px 10px 12px;
+  border: none;
+  border-radius: 0;
+}
+.contactformbg {
+  background-color: #E5F7F3;
+  padding: 40px 0;
+  margin-bottom: 30px;
+}
 
 .imgrow {
   display: flex;
