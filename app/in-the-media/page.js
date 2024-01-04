@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 import Copyright from "../components/copyright";
 
 const InTheMedia = () => {
-    const url = '/img/Banner-In-The-Media.jpg';
+    const url = '/img/Banner-In-the-Media.jpg';
     return (
         <>
         <BlogHeader url={url} headline={'In The Media'} />
