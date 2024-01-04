@@ -65,8 +65,8 @@ const topmenu = () => {
                             </ul>
                         </li>
                         <li><Link href={'/cms-blogs'}>CMS Blog</Link></li>
-                        <li>In the Media</li>
-                        <li>Contact Us</li>
+                        <li><Link href={'/in-the-media'}>In the Media</Link></li>
+                        <li><Link href={'/contact'}>Contact Us</Link></li>
                         <li><Link href={'/career'}>Career</Link></li>
                         <li>Privacy Policy</li>
                     </ul>

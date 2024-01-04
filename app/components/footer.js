@@ -67,15 +67,15 @@ const footer = () => {
                                 </ul>
                             </li>
                             <li><Link href={'/cms-blogs'}>CMS Blog</Link></li>
-                            <li>In the Media</li>
-                            <li>Contact Us</li>
+                            <li><Link href={'/in-the-media'}>In the Media</Link></li>
+                            <li><Link href={'/contact'}>Contact Us</Link></li>
                             <li><Link href={'/career'}>Career</Link></li>
                             <li>Privacy Policy</li>
                         </ul>
                     </Col>
                     <Col md={3}>
                         <p>Catalyst Management Services Pvt. Ltd., #25, 4th Floor, AECS Layout, RMV 2nd Stage, Ashwathnagar, Bangalore – 560 094.</p>
-                        <p>Email: contactus@catalysts.org</p>
+                        <p>Email: <Link href={'mailto:contactus@catalysts.org'}>contactus@catalysts.org</Link></p>
                     </Col>
                 </Row>
             </Container>
