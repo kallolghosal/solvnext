@@ -414,6 +414,7 @@ a:hover .iconbox {
   padding: 12px;
   box-shadow: 1px 1px #d2d2d2;
   height: 360px;
+  position: relative;
 }
 .careerborderbox ul li {
   list-style-image: url('../public/img/list-icon-green.png');
@@ -432,11 +433,30 @@ a:hover .iconbox {
   padding: 10px 73px 10px 12px;
   border: none;
   border-radius: 0;
+  position: absolute;
+  bottom: 15px;
 }
 .contactformbg {
   background-color: #E5F7F3;
   padding: 40px 0;
   margin-bottom: 30px;
+}
+.medialinkbox {
+  border: 1px solid #d2d2d2;
+  box-shadow: 1px 1px #d2d2d2;
+  height: 460px;
+  position: relative;
+}
+.medialinkbox .txtbox {
+  background-color: #F2EBF4;
+  padding: 12px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+.medialinkbox .txtbox a {
+  text-decoration: none;
+  color: #555;
 }
 
 .imgrow {
