@@ -68,7 +68,7 @@ const topmenu = () => {
                         <li><Link href={'/in-the-media'}>In the Media</Link></li>
                         <li><Link href={'/contact'}>Contact Us</Link></li>
                         <li><Link href={'/career'}>Career</Link></li>
-                        <li>Privacy Policy</li>
+                        <li><Link href={'/privacy-policy'}>Privacy Policy</Link></li>
                     </ul>
                 </Col>
                 </Row>
