@@ -64,6 +64,7 @@ const Cmsblogs = () => {
                         </Link>
                     </Col>
                 ))}
+                <h2>All lists</h2>
             </Row>
         </Container>
         <Footer />
