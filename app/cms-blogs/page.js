@@ -51,6 +51,7 @@ const Cmsblogs = () => {
         <>
         <BlogHeader url={imgbg} headline={'CMS Blog'} />
         <Container style={{marginTop:'80px'}}>
+            <h2>Blog List</h2>
             <Row>
                 {data.map((item) => (
                     <Col key={item.id} md={4}>
