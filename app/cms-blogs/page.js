@@ -51,11 +51,12 @@ const Cmsblogs = () => {
         <>
         <BlogHeader url={imgbg} headline={'CMS Blog'} />
         <Container style={{marginTop:'80px'}}>
+            <h2>Blog List</h2>
             <Row>
                 {data.map((item) => (
                     <Col key={item.id} md={4}>
                         <Link href={`/${item.slug}`}>
-                            <div className="card blog_card" >
+                            <div className="card blog_card">
                                 <Image src={item['_embedded']['wp:featuredmedia']['0']['source_url']} width={120} height={120} style={{width:'auto',height:'200px'}} className="card-img-top" alt=""/>
                                 <div className="card-body">
                                     <h5 className="card-title">{item.title.rendered}</h5>
